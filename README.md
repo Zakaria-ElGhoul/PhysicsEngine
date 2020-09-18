@@ -24,4 +24,4 @@
 
 * http://30044.hosts2.ma-cloud.nl/bewijzenmap/periode1.3/js-physics-engine-2020/html/12MyCar/index.html
 
-*http://30044.hosts2.ma-cloud.nl/bewijzenmap/periode1.3/js-physics-engine-2020/html/13MyCllock/index.html
+* http://30044.hosts2.ma-cloud.nl/bewijzenmap/periode1.3/js-physics-engine-2020/html/13MyCllock/index.html
