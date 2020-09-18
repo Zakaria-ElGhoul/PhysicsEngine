@@ -12,7 +12,7 @@ let cog, angle;
 
 img = new Image();
 
-img.src = "Images/cog.png";
+img.src = "images/cog.png";
 
 angle = 0.1;
 Yangle = 0.1;

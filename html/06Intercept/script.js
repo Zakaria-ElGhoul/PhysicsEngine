@@ -30,8 +30,8 @@ function animate()
   f.intercept = B.y - B.x * f.slope;
   g.intercept = C.y - C.x * g.slope;
 
-  S.x = f.intersection(g).x;
-  S.y = f.intersection(g).y;
+  S.x = f.LinearFunction.intercept(g).x;
+  S.y = f.LinearFunction.intercept (g).y;
 
   A.draw(context);
   B.draw(context);
