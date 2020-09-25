@@ -10,9 +10,9 @@ canvas.height = height;
 // begin hier met jouw code voor deze opdracht
 
 // create namespace
-let A,B,C
-let ab,bc,ca
-let mAB,mBC,mCA,lAB,lBC,lCA
+let A,B,C;
+let ab,bc,ca;
+let mAB,mBC,mCA,lAB,lBC,lCA;
 let circumCenter,distance;
 
 A = new Point(0.30 * width,0.20*height,20,"blue",true,"A");
@@ -89,7 +89,7 @@ function animate(){
 
   let dx = circumCenter.x - A.x;
   let dy = circumCenter.y - A.y;
-  distance = Math.sqrt(dx*dx + dy*dy)
+  distance = Math.sqrt(dx*dx + dy*dy);
 
   context.beginPath();
   context.arc(circumCenter.x,circumCenter.y,distance,0,2*Math.PI);

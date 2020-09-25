@@ -48,7 +48,8 @@ car.image.addEventListener('load',()=>
 
 function animate(){
   context.clearRect(0,0,width,height);
-  context.drawImage(background.img, 0,0);
+  context.drawImage(background.img, 0, 0);
+
   context.drawImage(car.image,car.pos,500);
   
 
