@@ -34,5 +34,4 @@ function animate(){
 
   //point.draw()
   context.fillRect(coordinate.x,coordinate.y,2*point.radius,2*point.radius);
-
 }

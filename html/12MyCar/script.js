@@ -48,34 +48,4 @@ car.image.addEventListener('load',()=>
 
 function animate(){
   context.clearRect(0,0,width,height);
-  context.drawImage(background.img, 0,0);
-  context.drawImage(car.image,car.pos,500);
-  
-
-  context.save()
-  context.translate(car.pos + 213,700)
-  context.rotate(wheels.angle);
-  context.drawImage(wheels.backWheel,-wheels.backWheel.width/2,-wheels.backWheel.height/2)
-  context.restore()
-
-  context.save()
-  context.translate(car.pos + 753,700)
-  context.rotate(wheels.angle);
-  context.drawImage(wheels.frontWheel,-wheels.frontWheel.width/2,-wheels.frontWheel.height/2)
-  context.restore()
-
-
-  car.pos += car.speed;
-
-  if(car.pos > width)
-  {
-    car.pos = -car.image.width
-  }
-
-  if(car.pos < -car.image.width)
-  {
-    car.pos = width;
-  }
-
-  wheels.angle += car.speed / (0.5*wheels.backWheel.width);
 }
