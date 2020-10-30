@@ -38,12 +38,9 @@ function animate(){
   coordinate.y = point.y - radius;
 
   context.clearRect(0,0,width,height);
-  //drawImage(img,sx,sy,sw,sh,x,y,w,h)
-
   context.drawImage(img_lowres,0,0);
 
-  //point.draw()
-  //context.fillRect(point.x - (point.radius /2 ), point.y -(point.radius /2 ), point.radius + (point.radius *2 ), point.radius + (point.radius *2 ));
+  context.fillRect(coordinate.x - 5, coordinate.y - 5, 2*point.radius + 5, 2 * point.radius + 5);
   context.drawImage(img_highres, point.x * scaleX, point.y * scaleY, point.radius/2, point.radius/2, point.x - point.radius/2, point.y - point.radius/2, point.radius, point.radius);
 }
 
